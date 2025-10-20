@@ -1,19 +1,103 @@
-# Java_Console_Calculator
-Java Console Calculator
-A minimal console-based calculator implemented in Java. The program is a single-file example located at Calculator.java (inside the Java_Console_Calculator package). It reads two integers and a math operator from standard input and prints the result.
+## 🧮 Java Console Calculator
 
-Features
-Supports addition (+), subtraction (-), multiplication (*) and division (/).
-Simple command-line interaction via Scanner.
-Handles division by zero with a friendly message.
+A simple command-line calculator built in Java that performs basic arithmetic operations — addition, subtraction, multiplication, and division.
+This project demonstrates fundamental Java programming concepts such as input handling, conditional logic, and exception management.
 
-Requirements
-Java JDK installed (Java 8 or later).
-Terminal / shell (the examples below use macOS zsh).
+---
 
-Usage
-When you run the program it prompts for:
+### 📁 Project Structure
 
-Enter first number: (type an integer and press Enter)
-Enter second number: (type an integer and press Enter)
-Enter operation: (type +, -, *, or / and press Enter)
+```
+Java_Console_Calculator/
+│
+├── src/
+│   └── Java_Console_Calculator/
+│       └── Calculator.java
+│
+└── README.md
+```
+
+---
+
+### ⚙️ Features
+
+✅ Perform basic arithmetic operations: `+`, `-`, `*`, `/`
+✅ Handles division by zero
+✅ User-friendly console interface
+✅ Uses Java `Scanner` for input
+
+---
+
+### 🚀 How to Run
+
+#### **1. Clone the Repository**
+
+```bash
+git clone https://github.com/yourusername/Java_Console_Calculator.git
+```
+
+#### **2. Navigate to the Project Directory**
+
+```bash
+cd Java_Console_Calculator
+```
+
+#### **3. Compile the Code**
+
+```bash
+javac Java_Console_Calculator/Calculator.java
+```
+
+#### **4. Run the Program**
+
+```bash
+java Java_Console_Calculator.Calculator
+```
+
+---
+
+### 💻 Sample Output
+
+```
+Enter first number: 10
+Enter second number: 5
+Enter operation: *
+Result: 50
+```
+
+**Division by Zero Example:**
+
+```
+Enter first number: 8
+Enter second number: 0
+Enter operation: /
+Cannot divide by zero
+```
+
+---
+
+### 🧠 Concepts Used
+
+* **Java Packages**
+* **Conditional Statements (`switch-case`)**
+* **Input Handling using `Scanner`**
+* **Exception Handling (try-with-resources)**
+
+---
+
+### 🏗️ Future Enhancements
+
+* Additional operations (modulus, power, square root)
+* GUI-based version using JavaFX or Swing
+* Continuous calculation (chained operations)
+
+---
+
+### 👩‍💻 Author
+
+**Khushi Gupta**
+🎓 Information Science and Engineering Student
+📍 Bangalore Institute of Technology
+
+---
+

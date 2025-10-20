@@ -9,9 +9,9 @@ public class Calculator {
 
             // Enter Numbers
             System.out.print("Enter first number: ");
-            int num1 = input.nextInt();
+            float num1 = input.nextFloat();
             System.out.print("Enter second number: ");
-            int num2 = input.nextInt();
+            float num2 = input.nextFloat();
 
             // Select the operator
             System.out.print("Enter operation: ");
